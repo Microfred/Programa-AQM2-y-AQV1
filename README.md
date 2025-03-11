@@ -1,0 +1,300 @@
+# Introducción a las Ciencias Ómicas
+
+
+PROPÓSITO DE LA UNIDAD DE APRENDIZAJE:
+
+Aplica los conocimientos en microbiología, biología molecular, bioquímica y bioinformática aprovechando los recientes avances en la secuenciación masiva de biomoléculas e identificación de metabolitos y con un enfoque holístico.
+.
+
+INSTRUCTOR:
+
+**Dra. Juan Alfredo Hernández García, PhD.**
+Laboratorio de Biología Molecular de Bactterias y Levaduras
+Departamento de Microbiología
+Escuela Nacional de Ciencias Biológicas
+Intituto Politécnico Nacional
+
+[https://github.com/Microfred](https://github.com/Microfred)
+
+
+
+Sala de chat para **anuncios de la clase** y dudas: [Discord!](https://gitter.im/Bioinfo_Mx-Cl/community)
+[Clasroom de la clase!](https://discord.gg/xKsEU2As)
+
+## Objetivos
+
+El **objetivo general es** brindar a los y las alumnas las herramientas computacionales de software libre, mejores prácticas y metodologías de reproducibilidad de la ciencia para efectuar, documentar y publicar proyectos bioinformáticos de análisis genómicos.
+
+Los **objetivos particulares** son:
+
+1.	Introducir a los y las alumnas en los principios de investigación reproducible y metodologías para organizar proyectos bioinformáticos
+2.	Introducir a los alumnos a bash (R y git)
+3.	Presentar a los alumnos los tipos de datos genéticos producidos por la secuenciación masiva (Next Generation Sequencing)
+4.	Introducir a los y las alumnas al análisis de datos genómicos y genomas reducidos
+5.	Revisar  a  nivel teórico y  práctico los  métodos  bioinformáticos  clásicos  de  análisis secuencias genómicas
+
+
+## Dinámica del curso
+
+### ¿Cómo serán las clases?
+
+* Teóricas y prácticas en medida de lo posible
+* Exposición + ejercicos y ejemplos en clase
+* Todos los materiales de la clase los iremos subiendo/actualizando a GitHub conforme avance el semestre
+* Dejaremos **lecturas** a casa antes o después de algunos temas. Es una muy buena idea sí leerlas.
+* Ocuparemos Google Classroom para enviar tareas y hacer anuncios del curso. Para este momento ya debiste de haber recibido una invitación a tu correo.
+
+* **¿Necesito una computadora?**
+
+Sí, el curso que intento dar es teórico-práctico, por lo que se requiere traigan una laptop con Mac o GNU/Linux (**no** Windows, sorry, lo intenté varios semestres y es una pesadilla para todxs) o en su defecto traer una tablat  e instalar [termux!](https://play.google.com/store/apps/details?id=com.termux&hl=es_MX):
+
+  -  [Docker](https://www.docker.com/) instalado y **FUNCIONANDO** (ocuparemos Docker dentro de un mes)
+
+
+* **¿Necesito instalar algo más? Sí**
+     1. Un editor de texto decente. Listo para la 2da clase. Recomendaciones:
+         * Mac o Linux: [Atom](https://atom.io/)
+         * Linux: [Gedit](http://sourceforge.net/projects/gedit/) u otro que te guste.
+         
+     2. Un editor de Markdown    
+         * Mac: [MacDown](http://macdown.uranusjr.com/)
+         * Mac o Linux: [Haroopad](http://pad.haroopress.com/) o [Typora](https://typora.io/)
+         
+     3. [R y RStudio](https://www.rstudio.com/products/rstudio/download/), vereémos si nos da tiempo de ver este tema.
+
+     
+
+ **Si van a tomar notas, que sean ahí o en un editor de Markdown, _¡nooooo en Word!_**.
+
+
+
+
+### El curso está en el repositorio
+
+El repositorio está dividido en un folder por Unidad. Dentro de cada folder subiremos los apuntes y código utilizado en cada clase conforme los vayamos viendo en el semestre, así como los enlaces a las tareas.
+
+Las notas de este repositorio están escritas en formato **Markdown** y, como notarás, el repositorio se encuentra hospedado en **GitHub**.
+
+Cubriremos ambas herramientas en el curso, pero en resumen:
+
+* Markdown es un procesador texto-a-HTML que de forma sencilla permite formatear texto `así`. Esto es útil para resaltar los los comandos y los resultados de la terminal del resto del texto en los documentos de clase (y en foros de ayuda).
+
+* GitHub es un repositorio web especializado en software (pero se puede subir cualquier texto, como este). La parte de arriba enlista los archivos y carpetas dentro del repositorio. La nota de texto a su derecha es el comentario que yo realicé al subir o modificar (*commit*) el archivo de mi computadora a GitHub. En la parte de abajo puedes leer el contenido de dichos archivos en formato html. Y si los bajas los verás en formato Markdown.
+
+En este mismo repositorio de github están las versiones de cursos que hemos dado los años pasados. Cada curso está en una "rama" del repositorio (más adelante veremos qué es esto).
+
+
+
+### Mecanismo de calificación
+
+El curso se dividirá en secciones que se calificarán por separado:
+
+**Unidades 1-3:**
+
+* 70% Tareas. Aproximadamente una tarea por sesión. Todas las tareas tienen el mismo valor. Habrá tareas opcionales, que se suman a la calificación esta sección
+* 20% Examen
+* 10% Asistencia y participación 
+
+**Unidad 4-5:**
+
+* 10% Tareas. Todas las tareas tienen el mismo valor. Habrá tareas opcionales, que se suman a la calificación esta sección.
+* 90% Proyecto de la Unidad 5.
+
+**Unidad 6-8:**
+
+100% Tareas. Aproximadamente una tarea por sesión. Todas las tareas tienen el mismo valor.
+
+**Proyecto final OBLIGATORIO**
+
+Será una presentación breve de 10-15 minutos de un tema que tú eligas, obviamente realcionado a las ciencias ómicas, el cual deberá contener:
+
+* Introducción
+* Obtjetivos
+* Materiales y Métodos
+* Resultados
+* Discusión
+* Conclusiónes
+* bibliografía
+
+
+**Copiar o plagiar (tareas, exámenes, trabajo final, lo que sea) es motivo suficiente para reprobarte sin lugar a discusión. (NOS VEMOS EN EL ETS)**
+
+![](truestory.png)
+
+
+## CONTENIDO DEL CURSO:
+
+* I.	Conceptos generales e introducción a al programación
+* II.	Genómica y Microbioma 
+* III.	Transcriptómica
+* IV.	Proteómica
+* V.	Metabolómica e interactómica
+
+
+
+
+#### Unidad 1 [Introducción a la programación](https://github.com/Microfred/IntroBioinfo)
+[Video **Sesión 1:  Introducción al código y la terminal**](https://www.youtube.com/watch?v=vziA1KbShoQ)
+
+* Historia y evolución de la genómica
+* Aplicaciones de la genómica
+* Transcripción y traducción
+* Regulación de la transcripción
+* Regulación de la traducción
+* Regulación postraduccional
+* Genómica y sus derivados
+* Código en computación
+* Cómo buscar ayuda (permanentemente)
+* Introducción a la consola y línea de comando de bash y R
+* Funciones básicas de navegación y manejo de archivos con bash
+
+
+
+
+
+
+
+
+[Video **Sesión 2: Introducción a los scripts y grep**](https://www.youtube.com/watch?v=ppqsw1OVw_0)
+
+* Funciones básicas de exploración de archivos con bash
+* Regular expressions y búsqueda de patrones (grep)
+* Redirección con bash
+
+[Video **Sesión 3: Continuación de bash**](https://www.youtube.com/watch?v=OhCBraaRfKs)
+
+* Introducción a los scripts
+* Loops con bash
+
+[Video Extra: Volver ejecutable un script](https://www.youtube.com/watch?v=wp3eC7FVANg)
+
+#### Unidad 2 [Organización de un proyecto bioinformático](Unidad2/Unidad2_Organizacion_proyecto_bioinf.md)
+
+[Video **Sesión 1: Documentación bioinformática**](https://www.youtube.com/watch?v=N_KUce2siNo)
+
+* Documentación de scripts y del proyecto
+* Markdown
+* git
+
+[Video **Sesión 2: Github**](https://www.youtube.com/watch?v=NIZjzU1BTjc)
+
+* Manejo de proyectos e issues en Github
+* Creación de pipelines
+
+#### Unidad 3 [Introducción a R con un enfoque bioinformático](Unidad3/Unidad3_Intro_a_R.md)
+
+[Video **Sesión 1: Introducción a R**](https://www.youtube.com/watch?v=MIzdokGuw_E)
+
+[Video **Sesión 1: Introducción a R-CONTINUACIÓN**](https://www.youtube.com/watch?v=J2rGmyOMBJI)
+
+* R y RStudio
+* Funciones básicas de R más importantes para bioinformática
+
+[Video **Sesión 2: Rmrkown y Funciones en R**](https://www.youtube.com/watch?v=98AaKGzfdCw)
+* Continuación intro
+* Funciones propias: crear funciones y utilizarlas con source
+* Rmarkdown y R Notebook
+
+[Video **Sesión 3: Manipulación y limpieza de datos en R**](https://www.youtube.com/watch?v=cvTvySyvG-s)
+
+* Manipulación y limpieza de datos en R
+
+[Video **Sesión 4: Graficar en R**](https://www.youtube.com/watch?v=3LSx8cdx2Do)
+
+* Graficar en R
+
+[Video **Sesión 5: Bioconductor**](https://www.youtube.com/watch?v=hTGqqeZomVM)
+
+* Bioconductor
+
+#### Unidad 4 [Introducción a software especializado y uso de servidores remotos](Unidad4/Unidad4_Intro_software_bioinformatico.md)
+
+[Video **Sesión 1: Software especializado y servidores remotos**](https://www.youtube.com/watch?v=YpD1n-Fzomk)
+
+* Introducción a Software especializado y cómo instalarlo
+* Uso de servidores remotos
+
+#### Unidad 5 [Genética de poblaciones con software especializado](Unidad5/Unidad5-Pop_genetics_software_especializado.md)
+
+[Video **Sesión 1: genética de poblaciones con software bioinformático**](https://www.youtube.com/watch?v=Gdxwh2oSkOY)
+
+* Formatos VCF-tools y plink
+* Paquetes de R y otros software para genética de poblaciones
+
+[Video **Sesión 2:continuación de genética de poblaciones**](https://www.youtube.com/watch?v=uvomUe2Ju_k)
+
+* PCA exploratorios
+* Análisis básicos de diversidad y diferenciación genética
+
+#### Trabajo en casa en proyectos finales y tareas
+ Se dará seguimiento online al proyecto de las unidades 1-5 con las herramientas de la Unidad 2 y se dejarán tareas para mantener la práctica de las unidades anteriores
+
+#### Unidad 6 [Introducción a la genómica y secuenciación de siguiente generación](Unidad6/Unidad6_IntroGenomica_NexGenSeq.md)
+
+**Sesión 1 Generación y QC de datos NGS**
+
+* Técnicas de secuenciación
+* Errores de secuenciación
+* Formatos fastq, bam, vcf
+* Análisis básicos de calidad
+
+**Sesión 2 Alineamiento de lecturas de secuenciación** 
+
+* Limpieza de datos crudos
+* Alineamiento contra un genoma de referencia
+
+**Sesión 3 Llamado de variantes**
+
+* Llamado de variantes
+* Predicción funcional de variantes
+* Interpretación y anotación de variantes
+
+#### Unidad 7 [Análisis de transcriptomas](Unidad7/Unidad7_Analisis_de_Transcriptomas.md)
+
+**Sesión 1 Expresión diferencial**
+
+* Diseño experimental
+* Análisis de expresion diferencia
+
+**Sesión 2 Análisis funcional**
+
+* Clustering
+* Enriquecimiento funcional
+
+
+**Sesión 3 RNA-seq**
+
+* Generación de datos RNAseq
+* Modelamiento de datos
+* Software
+
+### Unidad 8 [Aplicaciones de NGS](Unidad8/Unidad8_Aplicaciones_de_NGS.md)
+**Sesión 1 Metagenómica**
+* Secuenciación de amplicones
+* Barcoding
+* Metabarcoding
+
+**Sesión 2 Ensamblaje de representación reducida de genomas**
+
+* Metodologías de representación reducida de genomas (RAD, GBS, etc)
+* Ensamblaje de novo vs. sobre una referencia
+* Principales algoritmos y software (Stacks, pyRAD, Tassel)
+* Uso de replicados para informar el ensamblaje
+* Primera inspección de los datos
+
+#### Unidad 9 Análisis genómicos reproducibles en la nube
+
+**Sesión 1**
+* Terra
+* pipelining en la nube
+
+**Sesión 2**
+
+* Mejores prácticas de GATK
+* workflow GVCF
+* Jupyter
+* WDL
+
+**Sesión 3**
+* Variantes somáticas con Mutect2
+* Variantes en número de copias con GermlineCNVCaller
