@@ -17,10 +17,6 @@ Intituto Politécnico Nacional
 [https://github.com/Microfred](https://github.com/Microfred)
 
 
-
-Sala de chat para **anuncios de la clase** y dudas: [Discord!](https://gitter.im/Bioinfo_Mx-Cl/community)
-[Clasroom de la clase!](https://discord.gg/xKsEU2As)
-
 ## Objetivos
 
 El **objetivo general es** brindar a los y las alumnas las herramientas computacionales de software libre, mejores prácticas y metodologías de reproducibilidad de la ciencia para efectuar, documentar y publicar proyectos bioinformáticos de análisis genómicos.
@@ -134,7 +130,7 @@ Será una presentación breve de 10-15 minutos de un tema que tú eligas, obviam
 
 
 #### Unidad 1 [Introducción a la programación](https://github.com/Microfred/IntroBioinfo)
-[Video **Sesión 1:  Introducción al código y la terminal**](https://www.youtube.com/watch?v=vziA1KbShoQ)
+
 
 * Historia y evolución de la genómica
 * Aplicaciones de la genómica
