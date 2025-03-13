@@ -150,86 +150,22 @@ Será una presentación breve de 10-15 minutos de un tema que tú eligas, obviam
 
 
 
-
-
-
-
-
-[Video **Sesión 2: Introducción a los scripts y grep**](https://www.youtube.com/watch?v=ppqsw1OVw_0)
+**Sesión 2: Introducción a los scripts y grep**
 
 * Funciones básicas de exploración de archivos con bash
+* Comándos básicos en BASH
 * Regular expressions y búsqueda de patrones (grep)
 * Redirección con bash
 
-[Video **Sesión 3: Continuación de bash**](https://www.youtube.com/watch?v=OhCBraaRfKs)
+**Sesión 3: Continuación de bash**
 
 * Introducción a los scripts
-* Loops con bash
-
-[Video Extra: Volver ejecutable un script](https://www.youtube.com/watch?v=wp3eC7FVANg)
-
-#### Unidad 2 [Organización de un proyecto bioinformático](Unidad2/Unidad2_Organizacion_proyecto_bioinf.md)
-
-[Video **Sesión 1: Documentación bioinformática**](https://www.youtube.com/watch?v=N_KUce2siNo)
-
-* Documentación de scripts y del proyecto
-* Markdown
-* git
-
-[Video **Sesión 2: Github**](https://www.youtube.com/watch?v=NIZjzU1BTjc)
-
-* Manejo de proyectos e issues en Github
-* Creación de pipelines
-
-#### Unidad 3 [Introducción a R con un enfoque bioinformático](Unidad3/Unidad3_Intro_a_R.md)
-
-[Video **Sesión 1: Introducción a R**](https://www.youtube.com/watch?v=MIzdokGuw_E)
-
-[Video **Sesión 1: Introducción a R-CONTINUACIÓN**](https://www.youtube.com/watch?v=J2rGmyOMBJI)
-
+* Loops (Bucles) con bash
 * R y RStudio
 * Funciones básicas de R más importantes para bioinformática
 
-[Video **Sesión 2: Rmrkown y Funciones en R**](https://www.youtube.com/watch?v=98AaKGzfdCw)
-* Continuación intro
-* Funciones propias: crear funciones y utilizarlas con source
-* Rmarkdown y R Notebook
 
-[Video **Sesión 3: Manipulación y limpieza de datos en R**](https://www.youtube.com/watch?v=cvTvySyvG-s)
-
-* Manipulación y limpieza de datos en R
-
-[Video **Sesión 4: Graficar en R**](https://www.youtube.com/watch?v=3LSx8cdx2Do)
-
-* Graficar en R
-
-[Video **Sesión 5: Bioconductor**](https://www.youtube.com/watch?v=hTGqqeZomVM)
-
-* Bioconductor
-
-#### Unidad 4 [Introducción a software especializado y uso de servidores remotos](Unidad4/Unidad4_Intro_software_bioinformatico.md)
-
-[Video **Sesión 1: Software especializado y servidores remotos**](https://www.youtube.com/watch?v=YpD1n-Fzomk)
-
-* Introducción a Software especializado y cómo instalarlo
-* Uso de servidores remotos
-
-#### Unidad 5 [Genética de poblaciones con software especializado](Unidad5/Unidad5-Pop_genetics_software_especializado.md)
-
-[Video **Sesión 1: genética de poblaciones con software bioinformático**](https://www.youtube.com/watch?v=Gdxwh2oSkOY)
-
-* Formatos VCF-tools y plink
-* Paquetes de R y otros software para genética de poblaciones
-
-[Video **Sesión 2:continuación de genética de poblaciones**](https://www.youtube.com/watch?v=uvomUe2Ju_k)
-
-* PCA exploratorios
-* Análisis básicos de diversidad y diferenciación genética
-
-#### Trabajo en casa en proyectos finales y tareas
- Se dará seguimiento online al proyecto de las unidades 1-5 con las herramientas de la Unidad 2 y se dejarán tareas para mantener la práctica de las unidades anteriores
-
-#### Unidad 6 [Introducción a la genómica y secuenciación de siguiente generación](Unidad6/Unidad6_IntroGenomica_NexGenSeq.md)
+#### Unidad 2. Genómica y pangenómica
 
 **Sesión 1 Generación y QC de datos NGS**
 
@@ -243,11 +179,49 @@ Será una presentación breve de 10-15 minutos de un tema que tú eligas, obviam
 * Limpieza de datos crudos
 * Alineamiento contra un genoma de referencia
 
-**Sesión 3 Llamado de variantes**
+**Sesión 3 Pangenómica y Filogenómica**
 
-* Llamado de variantes
-* Predicción funcional de variantes
-* Interpretación y anotación de variantes
+* Evolución
+* Métodos de análisis en la reconstrucción filogenética
+* Pangenómica
+
+#### Unidad 3. Metagenómica y metabarcoding
+
+**Sesión 1 Generación y QC de datos NGS**
+
+* Técnicas de secuenciación
+* Errores de secuenciación
+* Formatos fastq, bam, vcf
+* Análisis básicos de calidad
+
+**Sesión 2 Ensamble y Anotación de genomas**
+
+* Métodos de esnsamble (Overlaping-Graphos de Bujin)
+* Anotación de *de novo*
+* Anotación referenciada
+* Búsqueda de ortólogos
+
+**Sesión 3 Pangenómica**
+
+* Genes ortólogos, parálogos, homología
+* genoma núcleo, genoma accesorio, genes únicos
+* 
+
+
+#### Unidad 4. Transcriptómica
+
++ (VIdeo!)[]
+
+
+#### Unidad 5. Protéomica e Interactómica
+##### 		5.1 Modelamiento de proteínas y Docking
+
+#### Trabajo en casa en proyectos finales y tareas
+ Se dará seguimiento online al proyecto de las unidades 1-5 con las herramientas de la Unidad 2 y se dejarán tareas para mantener la práctica de las unidades anteriores
+
+#### Unidad 6 [Introducción a la genómica y secuenciación de siguiente generación](Unidad6/Unidad6_IntroGenomica_NexGenSeq.md)
+
+
 
 #### Unidad 7 [Análisis de transcriptomas](Unidad7/Unidad7_Analisis_de_Transcriptomas.md)
 
