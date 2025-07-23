@@ -8,7 +8,7 @@ Aplica los conocimientos en microbiología, biología molecular, bioquímica y b
 
 INSTRUCTOR:
 
-**Dra. Juan Alfredo Hernández García, PhD.**
+**Dr. Juan Alfredo Hernández García, PhD.**
 Laboratorio de Biología Molecular de Bactterias y Levaduras
 Departamento de Microbiología
 Escuela Nacional de Ciencias Biológicas
