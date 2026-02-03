@@ -14,8 +14,9 @@ Departamento de Microbiología
 Escuela Nacional de Ciencias Biológicas
 Intituto Politécnico Nacional
 
-[https://github.com/Microfred](https://github.com/Microfred)
-[Youtube](https://www.youtube.com/channel/UC57RtU6eRvWAV9GRi7lZ7pw)
+* [https://github.com/Microfred](https://github.com/Microfred)
+
+* [Youtube](https://www.youtube.com/channel/UC57RtU6eRvWAV9GRi7lZ7pw)
 
 
 ## Objetivos
