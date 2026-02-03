@@ -8,11 +8,11 @@ Aplica los conocimientos en microbiología, biología molecular, bioquímica y b
 
 INSTRUCTOR:
 
-**Dr. Juan Alfredo Hernández García, PhD.**
-Laboratorio de Biología Molecular de Bactterias y Levaduras
-Departamento de Microbiología
-Escuela Nacional de Ciencias Biológicas
-Intituto Politécnico Nacional
+**Dr. Juan Alfredo Hernández García**
+*  Laboratorio de Biología Molecular de Bacterias y Levaduras
+*  Departamento de Microbiología
+*  Escuela Nacional de Ciencias Biológicas
+*  Instituto Politécnico Nacional
 
 * [https://github.com/Microfred](https://github.com/Microfred)
 
@@ -21,15 +21,18 @@ Intituto Politécnico Nacional
 
 ## Objetivos
 
-El **objetivo general es** brindar a los y las alumnas las herramientas computacionales de software libre, mejores prácticas y metodologías de reproducibilidad de la ciencia para efectuar, documentar y publicar proyectos bioinformáticos de análisis genómicos.
+El **objetivo general es:** brindar a los y las alumnas las herramientas computacionales de software libre, mejores prácticas y metodologías de reproducibilidad de la ciencia para efectuar y documentar proyectos bioinformáticos de análisis genómicos.
 
 Los **objetivos particulares** son:
 
 1.	Introducir a los y las alumnas en los principios de investigación reproducible y metodologías para organizar proyectos bioinformáticos
-2.	Introducir a los alumnos a bash (R y git)
+2.	Introducir a los alumnos a bash (TERMINAL)
 3.	Presentar a los alumnos los tipos de datos genéticos producidos por la secuenciación masiva (Next Generation Sequencing)
-4.	Introducir a los y las alumnas al análisis de datos genómicos y genomas reducidos
-5.	Revisar  a  nivel teórico y  práctico los  métodos  bioinformáticos  clásicos  de  análisis secuencias genómicas
+     * Illumina
+  	 * Pacbio
+    * Oxford nanopore
+5.	Introducir a los y las alumnas al análisis de datos genómicos, metabarcoding, shotgun y RNAseq
+6.	Revisar  a  nivel teórico y  práctico los  métodos  bioinformáticos  clásicos  de  análisis secuencias genómicas
 
 
 ## Dinámica del curso
@@ -37,9 +40,9 @@ Los **objetivos particulares** son:
 ### ¿Cómo serán las clases?
 
 * Teóricas y prácticas en medida de lo posible
-* Exposición + ejercicos y ejemplos en clase
+* Exposición + ejercicios y ejemplos en clase
 * Todos los materiales de la clase los iremos subiendo/actualizando a GitHub conforme avance el semestre
-* Dejaremos **lecturas** a casa antes o después de algunos temas. Es una muy buena idea sí leerlas.
+* Dejaremos **lecturas** para casa antes o después de algunos temas. Es una muy buena idea sí leerlas.
 * Ocuparemos Google Classroom para enviar tareas y hacer anuncios del curso. Para este momento ya debiste de haber recibido una invitación a tu correo.
 
 * **¿Necesito una computadora?**
