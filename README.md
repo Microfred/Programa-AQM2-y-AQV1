@@ -15,6 +15,7 @@ Escuela Nacional de Ciencias Biológicas
 Intituto Politécnico Nacional
 
 [https://github.com/Microfred](https://github.com/Microfred)
+(Youtube)[https://www.youtube.com/channel/UC57RtU6eRvWAV9GRi7lZ7pw]
 
 
 ## Objetivos
@@ -210,7 +211,9 @@ Será una presentación breve de 10-15 minutos de un tema que tú eligas, obviam
 
 
 #### Unidad 5. Protéomica e Interactómica
-##### 		5.1 Modelamiento de proteínas y Docking
+(VIdeo!)[https://www.youtube.com/live/MHWfV3drR_0?si=eYeK4rJ-VGwgAjCF]
+
+#### 	Unidad 6. Modelamiento de proteínas y Docking
 
 #### Trabajo en casa en proyectos finales y tareas
  Se dará seguimiento online al proyecto de las unidades 1-5 con las herramientas de la Unidad 2 y se dejarán tareas para mantener la práctica de las unidades anteriores
@@ -224,7 +227,7 @@ Será una presentación breve de 10-15 minutos de un tema que tú eligas, obviam
 **Sesión 1 Expresión diferencial**
 
 * Diseño experimental
-* Análisis de expresion diferencia
+* Análisis de expresión diferencial
 
 **Sesión 2 Análisis funcional**
 
